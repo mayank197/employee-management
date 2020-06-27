@@ -13,8 +13,6 @@
     <modules>
         <module>employee-entity</module>
         <module>employee</module>
-        <module>employee-entity</module>
-        <module>employee</module>
     </modules>
 
     <properties>
