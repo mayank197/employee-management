@@ -11,8 +11,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>employee-entity</module>
         <module>employee</module>
+        <module>employeeentity</module>
     </modules>
 
     <properties>

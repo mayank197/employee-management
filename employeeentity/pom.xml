@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.workplace</groupId>
-    <artifactId>employee</artifactId>
+    <artifactId>employeeentity</artifactId>
     <version>1.0</version>
 
     <properties>
