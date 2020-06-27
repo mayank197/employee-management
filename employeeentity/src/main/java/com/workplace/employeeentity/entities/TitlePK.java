@@ -1,7 +1,10 @@
 package com.workplace.employeeentity.entities;
 
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.io.Serializable;
-import javax.persistence.*;
 
 /**
  * The primary key class for the titles database table.

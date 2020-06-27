@@ -1,7 +1,15 @@
 package com.workplace.employeeentity.entities;
 
+import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.io.Serializable;
-import javax.persistence.*;
 import java.util.Date;
 
 
@@ -23,7 +31,7 @@ public class Title implements Serializable {
 	private Date toDate;
 
 	//bi-directional many-to-one association to Employee
-	@ManyToOne(fetch=FetchType.LAZY)
+	@ManyToOne(fetch= FetchType.LAZY)
 	private Employee employee;
 
 	public Title() {

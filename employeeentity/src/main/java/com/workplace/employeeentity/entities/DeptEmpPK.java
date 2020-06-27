@@ -1,7 +1,8 @@
 package com.workplace.employeeentity.entities;
 
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
 import java.io.Serializable;
-import javax.persistence.*;
 
 /**
  * The primary key class for the dept_emp database table.
