@@ -13,7 +13,7 @@
 
     <groupId>com.workplace</groupId>
     <artifactId>employee</artifactId>
-    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
