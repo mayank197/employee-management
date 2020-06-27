@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.workplace.employee","com.workplace.employeeentity"})
 public class EmployeeApplication {
 
     public static void main(String[] args) {
