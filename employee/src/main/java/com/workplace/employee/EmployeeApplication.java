@@ -1,6 +1,6 @@
-package com.workplace;
+package com.workplace.employee;
 /*
-    File Name : com.workplace.EmployeeApplication.java
+    File Name : EmployeeApplication.java
     
     @author Mayank Sharma
     First Created on 27-06-2020 at 13:37
