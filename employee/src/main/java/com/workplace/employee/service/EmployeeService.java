@@ -21,7 +21,7 @@ public class EmployeeService {
     EmployeeRepository empRepository;
 
     public List<String> getEmployeeNames() {
-        return empRepository.findAll().stream().map(emp->(emp.getFirstName() + " " + emp.getLastName()))
+        return empRepository.findAll().stream().limit(10).map(emp->(emp.getFirstName() + " " + emp.getLastName()))
                 .collect(Collectors.toList());
     }
 }

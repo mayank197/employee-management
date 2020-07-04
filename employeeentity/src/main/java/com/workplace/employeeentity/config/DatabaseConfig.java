@@ -16,17 +16,17 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
-@Configuration
+//@Configuration
 public class DatabaseConfig {
 
-    @Value("${spring.datasource.url}")
-    private String dbUrl;
-
-    @Bean
-    public DataSource dataSource(){
-        HikariConfig hikariConfig = new HikariConfig();
-        hikariConfig.setJdbcUrl(dbUrl);
-        return new HikariDataSource(hikariConfig);
-    }
+//    @Value("${spring.datasource.url}")
+//    private String dbUrl;
+//
+//    @Bean
+//    public DataSource dataSource(){
+//        HikariConfig hikariConfig = new HikariConfig();
+//        hikariConfig.setJdbcUrl(dbUrl);
+//        return new HikariDataSource(hikariConfig);
+//    }
 
 }
