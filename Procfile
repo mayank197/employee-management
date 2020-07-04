@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar employee/target/employee-2.0.2.RELEASE.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -cp target/classes:target/dependency/* com.workplace.employee
